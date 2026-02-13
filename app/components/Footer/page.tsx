@@ -13,9 +13,12 @@ export default function Footer() {
                     {/* Brand Section */}
                     <div className="lg:col-span-4 space-y-8">
                         <div>
-                            <Link href="/" className="text-3xl font-black text-[#1A1A1A] tracking-tighter flex items-center gap-2">
-                                <span className="bg-[#D4AF37] w-2 h-8 rounded-full"></span>
-                                FENSTORE
+                            <Link href="/" className="inline-block py-2">
+                                <img
+                                    src="/logo.png"
+                                    alt="FenStore Logo"
+                                    className="h-12 w-auto object-contain transition-all duration-300 hover:scale-105 filter drop-shadow-[0_4px_12px_rgba(212,175,55,0.1)]"
+                                />
                             </Link>
                             <p className="mt-6 text-sm leading-relaxed max-w-sm text-gray-500">
                                 Redefining the modern shopping experience in Ethiopia.
